@@ -1,0 +1,15 @@
+{
+	"name" : "tomocky1/hello-packagist",
+	"description": "Hello Packagagist",
+	"type" : "library",
+	"license": "Apache",
+	"require-dev": {
+	    "phpunit/phpunit": "7.0.*"
+	},
+	"autoload": {
+	    "psr-4": {
+	        "Collection\\": "src/",
+	        "CollectionTest\\": "tests/"
+	    }
+	}
+}
